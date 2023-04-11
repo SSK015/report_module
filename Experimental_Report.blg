@@ -1,0 +1,27 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  Microsoft(R) C/C++ for Win32
+Release version: 3.71 (04 mar 2019)
+
+The 8-bit codepage and sorting file: 88591lat.csf
+The top-level auxiliary file: Experimental_Report.aux
+The style file: Experimental_Report.bst
+Illegal, another \bibstyle command---line 19 of file Experimental_Report.aux
+ : \bibstyle
+ :          {gbt7714-numerical}
+I'm skipping whatever remains of this command
+Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
+Reallocated global_strs (elt_size=200001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=4) to 10 items from 0.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: Experimental_Report.bib
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 0 out of 750
+ Fields:             5000 out of 5000
+ Hash table:       199779 out of 200000
+ Strings:             695 out of 200000
+ Free string pool:   5869 out of 65000
+ Wizard functions:   3051 out of 6000
+(There was 1 error message)
