@@ -139,7 +139,7 @@
 %设置页眉样式
 \newcommand{\headstyle}{
 	\fancyhead[C]{\textcolor[RGB]{192,0,0}{\kaishu \zihao{3} 华 \enspace
-    中 \enspace 科 \enspace 技 \enspace 大 \enspace 学 \enspace 课 \enspace 程 \enspace 设 \enspace 计 \enspace 报 \enspace 告}}
+    中 \enspace 科 \enspace 技 \enspace 大 \enspace 学 \enspace 课 \enspace 程 \enspace 实 \enspace 验 \enspace 报 \enspace 告}}
   \def\headrule{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
 	  \vspace*{2mm}
 	  {\color[RGB]{24,116,205}\hrule\@height 0.5pt\@width\headwidth\vskip1pt}
@@ -174,7 +174,7 @@
 %设置各个标题样式
 %不需要使用part和chapter层级
 \ctexset{section={format={\centering \heiti \bfseries \zihao{-2}}}} %节
-\newcommand{\sectionbreak}{\clearpage} %小节从新的一页开始
+%\newcommand{\sectionbreak}{\baselineskip} %小节从新的一页开始
 \ctexset{subsection={format={\raggedright \heiti \bfseries \zihao{4}}}} %小节
 \ctexset{subsubsection={format={\raggedright \heiti \bfseries \zihao{-4}}}} %小小节
 \renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
@@ -486,13 +486,13 @@
 			\vspace*{2em}
 			\includegraphics[height=1.61cm]{\HGP@titlecolor}\\
 			\vspace*{2em}
-			{\zihao{1} \fangsong \bfseries 《魔~法~使~之~夜》~课~程~设~计~报~告}\\
+			{\zihao{1} \fangsong \bfseries 《机~器~学~习》~课~程~实~验~报~告}\\
 			\vspace*{3em}
 			\includegraphics[height=5cm]{\HGP@titlepicture}\\
-			\vspace*{2em}
+			\vspace*{1em}
 			\hspace{-1em} %% 放下更长的标题, 1em=16px
-			\zihao{2} \heiti \bfseries{选题名称：} \underline{\zihao{2} \songti \bfseries \@title}\\ %%g改论文题目字号
-			\vspace{2.5em}
+			\zihao{2} \heiti \bfseries{} \underline{\zihao{2} \songti \bfseries \@title}\\ %%g改论文题目字号
+			\vspace{2em}
 			{\zihao{3} \huawenzhongsong
 				\renewcommand\arraystretch{1.5}
 				\begin{tabular}{lc}
@@ -511,7 +511,7 @@
 					\makebox[4em][s]{报告日期} &
 					\underline{\makebox[\HGP@titlelength]{\HGP@titlelinefont\@date}} \\										
 			\end{tabular}}\\
-			\vspace{2em}
+			\vspace{1em}
 			{\zihao{3} \huawenzhongsong \@school}\\
 		\end{center}
 	\end{titlepage}

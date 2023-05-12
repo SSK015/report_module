@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.12)  11 APR 2023 23:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.12)  12 MAY 2023 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,7 +1742,6 @@ slant=0.167;"
 ] Excluding 'comment' comment. [1
 
 
-
 ] (./Experimental_Report.aux)
 
 Package rerunfilecheck Warning: File `Experimental_Report.out' has changed.
@@ -1750,15 +1749,15 @@ Package rerunfilecheck Warning: File `Experimental_Report.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Experimental_Report.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             Before: F2727E4642CAE86F81E12308AA168FED;881
 (rerunfilecheck)             After:  F504A960DB3AE4460EBC4FAF01B23AF5;118.
  ) 
 Here is how much of TeX's memory you used:
- 42506 strings out of 476919
- 991122 string characters out of 5825424
- 1609494 words of memory out of 5000000
- 61724 multiletter control sequences out of 15000+600000
- 414111 words of font info for 121 fonts, out of 8000000 for 9000
+ 42545 strings out of 476919
+ 991038 string characters out of 5825424
+ 1611482 words of memory out of 5000000
+ 61746 multiletter control sequences out of 15000+600000
+ 421544 words of font info for 151 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,11n,118p,1234b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
 
