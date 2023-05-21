@@ -1,0 +1,5 @@
+\frametitle{Performance : Conclusion}
+^^IThe paper proposed and evaluated Sherman, an RDMA-based B+Tree(and the first)
+^^Iindex on disaggregated memory. Sherman introduces a set of techniques to boost write performance and outperforms existing solutions, demonstrates that combining RDMA
+^^Ihardware features and RDMA-friendly software designs can enable
+^^Ia high-performance index on disaggregated memory.
